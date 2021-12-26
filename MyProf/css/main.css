@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.tate {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+}
+
+.yoko {
+  display:flex;
+  gap: 100vw;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.yokonarabi{
+  scroll-snap-align: center;
+  width: 100vw;
+}
+
+.kugiri {
+  scroll-snap-align: start;
+  height: 100vh;
+  width: 100vw;
+}
+
+#love {
+  font-size: 25px;
+}
+
+
+h1 {
+  font-size: 50px;
+  font-family: 'Kiwi Maru', serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+a{
+  font-size: 40px;
+  font-weight: bold;
+  color:  black;
+  -webkit-text-stroke:1px #00FFFF;
+  font-family: "Press Start 2P";
+}
+
+#prof {
+  text-align: left;
+}
+
+#zibun {
+  text-align: right;
+}
+
+#ilove {
+  background-color: #ffb7ff;
+}
+
+#snakegame {
+  color:white;
+  background-color: black;
+  font-family: 'DotGothic16', sans-serif;
+}
+#saigoni{
+  color:white;
+}
+
+#saigo{
+  text-align: left;
+}
+
+.kugiri:nth-child(odd){
+  background-color: white;
+}
+
+#a{
+  font-size: 40px;
+}
+
+.b{
+  font-size: 30px;
+  text-align: center;
+  color: red;
+}
